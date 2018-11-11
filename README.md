@@ -13,4 +13,14 @@
 pod install
 ```
 
+## Set TheMovieDB API Key
+### File 'MoviesAPI.swift'
+```swift
+public struct MoviesAPI {
+    // other code
+    static var apiKey = "<your api key here>"
+...
+}
+```
+
 Open TheMovieDB.xcworkspace
